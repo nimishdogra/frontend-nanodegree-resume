@@ -8,9 +8,9 @@ var bio = {
 			twitter		: "@nimishdogra",
 			location	: "Gurgaon,India"
 		},
-	welcomeMessage		:"Expertise in Applications Development & Maintenance using Mainframe, '%data%' Analytics &" +
-						 "Encryption usning MS-SQL, DB2 and IDMS;" +
-						 "Looking forward to explore carrer in-field of front-end development ",
+	welcomeMessage		:"Expertise in Applications Development & Maintenance using Mainframe, Data Analytics & " +
+						 "Encryption usning MS-SQL, DB2 and IDMS; " +
+						 "Looking forward to explore carrer in-field of front-end development. ",
 	skills				: [ "Javascript", "HTML", "CSS", "Front-end web Development", "jQuery", "DOM", "Mainframe",
 							"MS-SQL", "COBOL", "CICS" , "JCL" , "DB2" , "VSAM", "IDMS" , "ADSO", "File-aid", "RTC",
 							"Easytrieve", "Platinum", "REXX", "DFSORT", "MS-SQL", "SSMS", "Git"],
@@ -26,7 +26,7 @@ var bio = {
 		var formattedGithub = HTMLgithub.replace('%data%', bio.contacts.github);
 		var formattedTwitter = HTMLtwitter.replace('%data%', bio.contacts.twitter);
 		var formattedLocation = HTMLlocation.replace('%data%', bio.contacts.location);
-		$("#topContacts").append(formattedMobile + formattedEmail + formattedGithub + formattedTwitter + formattedLocation );
+		$("#topContacts,#footerContacts").append(formattedMobile + formattedEmail + formattedGithub + formattedTwitter + formattedLocation );
 
 		var formattedbiopic = HTMLbioPic.replace('%data%', bio.biopic);
 		var formattedwelcomeMsg = HTMLwelcomeMsg.replace('%data%', bio.welcomeMessage);
@@ -50,11 +50,11 @@ var work = {
 		title		: "Senior Consultant",
 		location	: "Gurgaon, India",
 		dates		: "January 2016 - Until now",
-		description	: "Provided Technical Leadership and worked closely with business analysts, managers, developers and DBAs." + 
-					  "Develop/Enhance mainframe batch/online applications using SDLC models i.e. Waterfal & Agile, Automate" + 
-					  "recurring issues using Rexx, Prepare technical design, Supported mainframe admin activities i.e. FTP's" +
-					  "of setup JCL from IBM & Compuware Server to Lochbridge MVS server, installed mainframe tools i.e. Fileaid," +
-					  "Hiperstation, etc. as well as maintaining MVS Volume storage, Extract data from mainframe/distributed" +
+		description	: "Provided Technical Leadership and worked closely with business analysts, managers, developers and DBAs. " + 
+					  "Develop/Enhance mainframe batch/online applications using SDLC models i.e. Waterfall & Agile, Automate " + 
+					  "recurring issues using Rexx, Prepare technical design, Supported mainframe admin activities i.e. FTP's " +
+					  "of setup JCL from IBM & Compuware Server to Lochbridge MVS server, installed mainframe tools i.e. Fileaid, " +
+					  "Hiperstation, etc. as well as maintaining MVS Volume storage, Extract data from mainframe/distributed " +
 					  "environment and & idntify/encrypt sensitive data."
 	},
 	{
@@ -62,11 +62,11 @@ var work = {
 		title		: "Application Developer",
 		location	: "Mumbai, India",
 		dates		: "December 2014 - December 2015",
-		description	: "Provided Technical Leadership and worked closely with business analysts, managers, developers and DBAs." + 
-					  "Develop/Enhance mainframe batch/online applications using SDLC models i.e. Waterfal & Agile, Automate" + 
-					  "recurring issues using Rexx, Prepare technical design, Supported mainframe admin activities i.e. FTP's" +
-					  "of setup JCL from IBM & Compuware Server to Lochbridge MVS server, installed mainframe tools i.e. Fileaid," +
-					  "Hiperstation, etc. as well as maintaining MVS Volume storage, Extract data from mainframe/distributed" +
+		description	: "Provided Technical Leadership and worked closely with business analysts, managers, developers and DBAs. " + 
+					  "Develop/Enhance mainframe batch/online applications using SDLC models i.e. Waterfall & Agile, Automate " + 
+					  "recurring issues using Rexx, Prepare technical design, Supported mainframe admin activities i.e. FTP's " +
+					  "of setup JCL from IBM & Compuware Server to Lochbridge MVS server, installed mainframe tools i.e. Fileaid, " +
+					  "Hiperstation, etc. as well as maintaining MVS Volume storage, Extract data from mainframe/distributed " +
 					  "environment and & idntify/encrypt sensitive data."
 	},
 	{
@@ -74,11 +74,11 @@ var work = {
 		title		: "Software Engineer",
 		location	: "Pune, India",
 		dates		: "September 2011 - December 2014",
-		description	: "Provided Technical Leadership and worked closely with business analysts, managers, developers and DBAs." + 
-					  "Develop/Enhance mainframe batch/online applications using SDLC models i.e. Waterfal & Agile, Automate" + 
-					  "recurring issues using Rexx, Prepare technical design, Supported mainframe admin activities i.e. FTP's" +
-				      "of setup JCL from IBM & Compuware Server to Lochbridge MVS server, installed mainframe tools i.e. Fileaid," +
-					  "Hiperstation, etc. as well as maintaining MVS Volume storage, Extract data from mainframe/distributed" +
+		description	: "Provided Technical Leadership and worked closely with business analysts, managers, developers and DBAs. " + 
+					  "Develop/Enhance mainframe batch/online applications using SDLC models i.e. Waterfall & Agile, Automate " + 
+					  "recurring issues using Rexx, Prepare technical design, Supported mainframe admin activities i.e. FTP's " +
+				      "of setup JCL from IBM & Compuware Server to Lochbridge MVS server, installed mainframe tools i.e. Fileaid, " +
+					  "Hiperstation, etc. as well as maintaining MVS Volume storage, Extract data from mainframe/distributed " +
 					  "environment and & idntify/encrypt sensitive data."
 	}
 	],
@@ -103,10 +103,10 @@ var work = {
 	}
 };
 
-var projects = {
-	projectDetails: [
+var projectDetails = {
+	projects: [
 	{
-		title			: "Mainframe DB2 '%data%' Warehouse Production/support",
+		title			: "Mainframe DB2 Data Warehouse Production/support",
 		Client			: "BCBSM, Michigan-headquartered",
 		dates			: "January 2016 - Until now",
 		workLocation	: "Onshore (Detroit, US) and Offshore (Gurgaon, India)",
@@ -114,7 +114,8 @@ var projects = {
 					 	  "Michigan in addition to members of Michigan-headquartered groups who reside outside the state." +
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
-						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes."
+						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
+		images			: "images/prj.jpg"
 	},
 	{
 		title			: "MVS (Mainframe) Setup",
@@ -125,7 +126,8 @@ var projects = {
 					 	  "Michigan in addition to members of Michigan-headquartered groups who reside outside the state." +
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
-						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes."
+						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
+		images			: "images/prj.jpg"
 	},
 	{
 		title			: "Data Privacy to encrypt sensitive information",
@@ -136,7 +138,8 @@ var projects = {
 					 	  "Michigan in addition to members of Michigan-headquartered groups who reside outside the state." +
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
-						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes."
+						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
+		images			: "images/prj.jpg"
 	},
 	{
 		title			: "Multi-currency Reporting based on Local currency",
@@ -147,7 +150,8 @@ var projects = {
 					 	  "Michigan in addition to members of Michigan-headquartered groups who reside outside the state." +
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
-						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes."
+						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
+		images			: "images/prj.jpg"
 	},
 	{
 		title			: "Credit Risk Calculation for equity transactions",
@@ -158,7 +162,8 @@ var projects = {
 					 	  "Michigan in addition to members of Michigan-headquartered groups who reside outside the state." +
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
-						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes."
+						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
+		images			: "images/prj.jpg"
 	},
 	{
 		title			: "ICD-9 to ICD-10 Conversion",
@@ -169,7 +174,8 @@ var projects = {
 					 	  "Michigan in addition to members of Michigan-headquartered groups who reside outside the state." +
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
-						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes."
+						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
+		images			: "images/prj.jpg"
 	},
 	{
 		title			: "IDMS to DB2 Migration for Member-provider Relationship '%data%' table",
@@ -180,7 +186,8 @@ var projects = {
 					 	  "Michigan in addition to members of Michigan-headquartered groups who reside outside the state." +
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
-						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes."
+						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
+		images			: "images/prj.jpg"
 	},
 	{
 		title			: "Manual Adjustment at member claim level",
@@ -191,7 +198,8 @@ var projects = {
 					 	  "Michigan in addition to members of Michigan-headquartered groups who reside outside the state." +
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
-						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes."
+						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
+		images			: "images/prj.jpg"
 	},
 	{
 		title			: "Settlement Process of Provider Claims",
@@ -202,7 +210,8 @@ var projects = {
 					 	  "Michigan in addition to members of Michigan-headquartered groups who reside outside the state." +
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
-						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes."
+						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
+		images			: "images/prj.jpg"
 	},
 	{
 		title			: "Stress load claim testing",
@@ -213,19 +222,22 @@ var projects = {
 					 	  "Michigan in addition to members of Michigan-headquartered groups who reside outside the state." +
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
-						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes."
+						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
+		images			: "images/prj.jpg"
 	}
 	],
 
 	display: function() {
-		if (projects.projectDetails.length > 0) {
-			for (var i = 0; i < projects.projectDetails.length; i++) {
-				var formattedprojectTitle = HTMLprojectTitle.replace('%data%', projects.projectDetails[i].title);
-				var formattedprojectDates = HTMLprojectDates.replace('%data%', projects.projectDetails[i].dates);
-				var formattedprojectDescription = HTMLprojectDescription.replace('%data%', projects.projectDetails[i].description);
+		if (projectDetails.projects.length > 0) {
+			for (var i = 0; i < projectDetails.projects.length; i++) {
+				var formattedprojectTitle = HTMLprojectTitle.replace('%data%', projectDetails.projects[i].title);
+				var formattedprojectDates = HTMLprojectDates.replace('%data%', projectDetails.projects[i].dates);
+				var formattedprojectDescription = HTMLprojectDescription.replace('%data%', projectDetails.projects[i].description);
+				var formattedprojectImage = HTMLprojectImage.replace('%data%', projectDetails.projects[i].images);
 		
 				$('#projects').append(HTMLprojectStart);
-				$(".project-entry:last").append(formattedprojectTitle + formattedprojectDates + formattedprojectDescription);
+				$(".project-entry:last").append(formattedprojectTitle + formattedprojectDates + 
+												formattedprojectDescription + formattedprojectImage);
 			}
 		}	
 	}		
@@ -237,7 +249,7 @@ var education = {
 		name		: "A.M.I. Shishu Mandir",
 		location	: "Gwalior, M.P.",
 		degree		: "Higher Secondary",
-		majors		: "Science-Mathematics",
+		majors		: ["Science-Mathematics"],
 		dates		: "1992-2005",
 		url			: "http://amishishumandir.com/"
 	},
@@ -245,7 +257,7 @@ var education = {
 		name		: "Skyline Institue of Engineering & Technology",
 		location	: "Greater Noida, U.P.",
 		degree		: "Bachelor of Technology",
-		majors		: "Electronics & Communication Engineering",
+		majors		: ["Electronics & Communication Engineering"],
 		dates		: "2006-2011",
 		url			: "http://xxxxxxxx/"
 	}
@@ -274,7 +286,9 @@ var education = {
 					var formattedschoolDegree = HTMLschoolDegree.replace('%data%', education.schools[i].degree);
 					var formattedschoolDates = HTMLschoolDates.replace('%data%', education.schools[i].dates);
 					var formattedschoolLocation = HTMLschoolLocation.replace('%data%',education.schools[i].location);
-					var formattedschoolMajor = HTMLschoolMajor.replace('%data%',education.schools[i].majors);
+					for (var j = 0; j<education.schools[i].majors.length; j++) {
+						var formattedschoolMajor = HTMLschoolMajor.replace('%data%',education.schools[i].majors[j]);
+					}
 					$('#education').append(HTMLschoolStart);
 					$(".education-entry:last").append(formattedschoolName + formattedschoolDegree + formattedschoolDates +
 													  formattedschoolLocation + formattedschoolMajor);
@@ -296,7 +310,7 @@ var education = {
 
 bio.display();
 work.display();
-projects.display();
+projectDetails.display();
 education.display();
 
 $('#mapDiv').append(googleMap);
