@@ -103,11 +103,11 @@ var work = {
 	}
 };
 
-var projectDetails = {
+var projects = {
 	projects: [
 	{
 		title			: "Mainframe DB2 Data Warehouse Production/support",
-		Client			: "BCBSM, Michigan-headquartered",
+		client			: "BCBSM, Michigan-headquartered",
 		dates			: "January 2016 - Until now",
 		workLocation	: "Onshore (Detroit, US) and Offshore (Gurgaon, India)",
 		description		: "BCBSM provides and administers health benefits to more than 4.3 million members residing in" + 
@@ -115,11 +115,11 @@ var projectDetails = {
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
 						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
-		images			: "images/prj.jpg"
+		images			: ["images/prj.jpg"]
 	},
 	{
 		title			: "MVS (Mainframe) Setup",
-		Client			: "BCBSM, Michigan-headquartered",
+		client			: "BCBSM, Michigan-headquartered",
 		dates			: "January 2016 - Until now",
 		workLocation	: "Onshore (Detroit, US) and Offshore (Gurgaon, India)",
 		description		: "BCBSM provides and administers health benefits to more than 4.3 million members residing in" + 
@@ -127,11 +127,11 @@ var projectDetails = {
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
 						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
-		images			: "images/prj.jpg"
+		images			: ["images/prj.jpg"]
 	},
 	{
 		title			: "Data Privacy to encrypt sensitive information",
-		Client			: "BCBSM, Michigan-headquartered",
+		client			: "BCBSM, Michigan-headquartered",
 		dates			: "January 2016 - Until now",
 		workLocation	: "Onshore (Detroit, US) and Offshore (Gurgaon, India)",
 		description		: "BCBSM provides and administers health benefits to more than 4.3 million members residing in" + 
@@ -139,11 +139,11 @@ var projectDetails = {
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
 						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
-		images			: "images/prj.jpg"
+		images			: ["images/prj.jpg"]
 	},
 	{
 		title			: "Multi-currency Reporting based on Local currency",
-		Client			: "BCBSM, Michigan-headquartered",
+		client			: "BCBSM, Michigan-headquartered",
 		dates			: "January 2016 - Until now",
 		workLocation	: "Onshore (Detroit, US) and Offshore (Gurgaon, India)",
 		description		: "BCBSM provides and administers health benefits to more than 4.3 million members residing in" + 
@@ -151,11 +151,11 @@ var projectDetails = {
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
 						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
-		images			: "images/prj.jpg"
+		images			: ["images/prj.jpg"]
 	},
 	{
 		title			: "Credit Risk Calculation for equity transactions",
-		Client			: "BCBSM, Michigan-headquartered",
+		client			: "BCBSM, Michigan-headquartered",
 		dates			: "January 2016 - Until now",
 		workLocation	: "Onshore (Detroit, US) and Offshore (Gurgaon, India)",
 		description		: "BCBSM provides and administers health benefits to more than 4.3 million members residing in" + 
@@ -163,11 +163,11 @@ var projectDetails = {
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
 						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
-		images			: "images/prj.jpg"
+		images			: ["images/prj.jpg"]
 	},
 	{
 		title			: "ICD-9 to ICD-10 Conversion",
-		Client			: "BCBSM, Michigan-headquartered",
+		client			: "BCBSM, Michigan-headquartered",
 		dates			: "January 2016 - Until now",
 		workLocation	: "Onshore (Detroit, US) and Offshore (Gurgaon, India)",
 		description		: "BCBSM provides and administers health benefits to more than 4.3 million members residing in" + 
@@ -175,11 +175,11 @@ var projectDetails = {
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
 						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
-		images			: "images/prj.jpg"
+		images			: ["images/prj.jpg"]
 	},
 	{
 		title			: "IDMS to DB2 Migration for Member-provider Relationship '%data%' table",
-		Client			: "BCBSM, Michigan-headquartered",
+		client			: "BCBSM, Michigan-headquartered",
 		dates			: "January 2016 - Until now",
 		workLocation	: "Onshore (Detroit, US) and Offshore (Gurgaon, India)",
 		description		: "BCBSM provides and administers health benefits to more than 4.3 million members residing in" + 
@@ -187,11 +187,11 @@ var projectDetails = {
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
 						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
-		images			: "images/prj.jpg"
+		images			: ["images/prj.jpg"]
 	},
 	{
 		title			: "Manual Adjustment at member claim level",
-		Client			: "BCBSM, Michigan-headquartered",
+		client			: "BCBSM, Michigan-headquartered",
 		dates			: "January 2016 - Until now",
 		workLocation	: "Onshore (Detroit, US) and Offshore (Gurgaon, India)",
 		description		: "BCBSM provides and administers health benefits to more than 4.3 million members residing in" + 
@@ -199,11 +199,11 @@ var projectDetails = {
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
 						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
-		images			: "images/prj.jpg"
+		images			: ["images/prj.jpg"]
 	},
 	{
 		title			: "Settlement Process of Provider Claims",
-		Client			: "BCBSM, Michigan-headquartered",
+		client			: "BCBSM, Michigan-headquartered",
 		dates			: "January 2016 - Until now",
 		workLocation	: "Onshore (Detroit, US) and Offshore (Gurgaon, India)",
 		description		: "BCBSM provides and administers health benefits to more than 4.3 million members residing in" + 
@@ -211,11 +211,11 @@ var projectDetails = {
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
 						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
-		images			: "images/prj.jpg"
+		images			: ["images/prj.jpg"]
 	},
 	{
 		title			: "Stress load claim testing",
-		Client			: "BCBSM, Michigan-headquartered",
+		client			: "BCBSM, Michigan-headquartered",
 		dates			: "January 2016 - Until now",
 		workLocation	: "Onshore (Detroit, US) and Offshore (Gurgaon, India)",
 		description		: "BCBSM provides and administers health benefits to more than 4.3 million members residing in" + 
@@ -223,17 +223,19 @@ var projectDetails = {
 					 	  "Resolve high priority Production abends i.e. data & Sort issues, etc., fix recurring issues too." +
 						  "Responsible for maintenance and enhancement of existing production process. Optimize Process and automate" + 
 						  "repeated customer requests. Prepare High Level design as well as Technical design of the system processes.",
-		images			: "images/prj.jpg"
+		images			: ["images/prj.jpg"]
 	}
 	],
 
 	display: function() {
-		if (projectDetails.projects.length > 0) {
-			for (var i = 0; i < projectDetails.projects.length; i++) {
-				var formattedprojectTitle = HTMLprojectTitle.replace('%data%', projectDetails.projects[i].title);
-				var formattedprojectDates = HTMLprojectDates.replace('%data%', projectDetails.projects[i].dates);
-				var formattedprojectDescription = HTMLprojectDescription.replace('%data%', projectDetails.projects[i].description);
-				var formattedprojectImage = HTMLprojectImage.replace('%data%', projectDetails.projects[i].images);
+		if (projects.projects.length > 0) {
+			for (var i = 0; i < projects.projects.length; i++) {
+				var formattedprojectTitle = HTMLprojectTitle.replace('%data%', projects.projects[i].title);
+				var formattedprojectDates = HTMLprojectDates.replace('%data%', projects.projects[i].dates);
+				var formattedprojectDescription = HTMLprojectDescription.replace('%data%', projects.projects[i].description);
+				for (var j = 0; j < projects.projects[i].images.length; j++ ) {
+					var formattedprojectImage = HTMLprojectImage.replace('%data%', projects.projects[i].images[j]);
+				}
 		
 				$('#projects').append(HTMLprojectStart);
 				$(".project-entry:last").append(formattedprojectTitle + formattedprojectDates + 
@@ -310,7 +312,7 @@ var education = {
 
 bio.display();
 work.display();
-projectDetails.display();
+projects.display();
 education.display();
 
 $('#mapDiv').append(googleMap);
